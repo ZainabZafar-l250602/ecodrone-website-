@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoDrone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <h1>EcoDrone</h1>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#form">Join Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <img src = "C:\Users\HP\Desktop\WhatsApp Image 2025-11-16 at 3.30.30 PM.jpeg" alt="Eco Drones" class="hero-image">
+        <h1>Fly Green, Fly Smart</h1>
+        <p>Eco-friendly drones with AI navigation.</p>
+        <a href="#form" class="btn-primary">Join Us</a>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <h2>Features</h2>
+        <div class="features-grid">
+            <article class="feature-card" tabindex="0">
+                <svg viewBox="0 0 64 64" role="img" aria-label="Eco Battery Icon">
+                    <circle cx="32" cy="32" r="30" stroke="green" stroke-width="4" fill="lightgreen"/>
+                </svg>
+                <h3>Eco Batteries</h3>
+                <p>Long-lasting, sustainable battery life.</p>
+            </article>
+
+            <article class="feature-card" tabindex="0">
+                <svg viewBox="0 0 64 64" role="img" aria-label="AI Navigation Icon">
+                    <rect x="12" y="12" width="40" height="40" stroke="green" stroke-width="4" fill="lightgreen"/>
+                </svg>
+                <h3>AI Navigation</h3>
+                <p>Smart routing for minimal energy use.</p>
+            </article>
+
+            <article class="feature-card" tabindex="0">
+                <svg viewBox="0 0 64 64" role="img" aria-label="Durable Frame Icon">
+                    <polygon points="32,4 60,60 4,60" stroke="green" stroke-width="4" fill="lightgreen"/>
+                </svg>
+                <h3>Durable Frame</h3>
+                <p>Recycled materials for strong, lightweight builds.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Join Us Form -->
+    <section id="form">
+        <h2>Join EcoDrone</h2>
+        <form>
+            <!-- Text Inputs -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- Checkboxes -->
+            <fieldset>
+                <legend>Interests:</legend>
+                <label class="custom-checkbox">
+                    <input type="checkbox" name="interests" value="updates">
+                    <span class="checkmark"></span> Product Updates
+                </label>
+                <label class="custom-checkbox">
+                    <input type="checkbox" name="interests" value="newsletter">
+                    <span class="checkmark"></span> Newsletter
+                </label>
+                <label class="custom-checkbox">
+                    <input type="checkbox" name="interests" value="offers">
+                    <span class="checkmark"></span> Special Offers
+                </label>
+            </fieldset>
+
+            <!-- Radio Buttons -->
+            <fieldset>
+                <legend>Subscription Plan:</legend>
+                <label class="custom-radio">
+                    <input type="radio" name="plan" value="basic">
+                    <span class="radiomark"></span> Basic
+                </label>
+                <label class="custom-radio">
+                    <input type="radio" name="plan" value="premium">
+                    <span class="radiomark"></span> Premium
+                </label>
+            </fieldset>
+
+            <!-- Select Dropdown -->
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="">Select your country</option>
+                <option value="us">USA</option>
+                <option value="uk">UK</option>
+                <option value="ca">Canada</option>
+            </select>
+
+            <!-- Textarea -->
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 EcoDrone. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
